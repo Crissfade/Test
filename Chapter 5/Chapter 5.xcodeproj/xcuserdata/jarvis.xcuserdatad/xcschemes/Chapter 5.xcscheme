@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63F5445719D8517400B3C0CE"
-               BuildableName = "Chapter 5.app"
-               BlueprintName = "Chapter 5"
-               ReferencedContainer = "container:Chapter 5.xcodeproj">
+               BlueprintIdentifier = "63F5449A19D85FCC00B3C0CE"
+               BuildableName = "chapter 5.app"
+               BlueprintName = "chapter 5"
+               ReferencedContainer = "container:chapter 5.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63F5447019D8517500B3C0CE"
-               BuildableName = "Chapter 5Tests.xctest"
-               BlueprintName = "Chapter 5Tests"
-               ReferencedContainer = "container:Chapter 5.xcodeproj">
+               BlueprintIdentifier = "63F544B319D85FCC00B3C0CE"
+               BuildableName = "chapter 5Tests.xctest"
+               BlueprintName = "chapter 5Tests"
+               ReferencedContainer = "container:chapter 5.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63F5447019D8517500B3C0CE"
-               BuildableName = "Chapter 5Tests.xctest"
-               BlueprintName = "Chapter 5Tests"
-               ReferencedContainer = "container:Chapter 5.xcodeproj">
+               BlueprintIdentifier = "63F544B319D85FCC00B3C0CE"
+               BuildableName = "chapter 5Tests.xctest"
+               BlueprintName = "chapter 5Tests"
+               ReferencedContainer = "container:chapter 5.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63F5445719D8517400B3C0CE"
-            BuildableName = "Chapter 5.app"
-            BlueprintName = "Chapter 5"
-            ReferencedContainer = "container:Chapter 5.xcodeproj">
+            BlueprintIdentifier = "63F5449A19D85FCC00B3C0CE"
+            BuildableName = "chapter 5.app"
+            BlueprintName = "chapter 5"
+            ReferencedContainer = "container:chapter 5.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63F5445719D8517400B3C0CE"
-            BuildableName = "Chapter 5.app"
-            BlueprintName = "Chapter 5"
-            ReferencedContainer = "container:Chapter 5.xcodeproj">
+            BlueprintIdentifier = "63F5449A19D85FCC00B3C0CE"
+            BuildableName = "chapter 5.app"
+            BlueprintName = "chapter 5"
+            ReferencedContainer = "container:chapter 5.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63F5445719D8517400B3C0CE"
-            BuildableName = "Chapter 5.app"
-            BlueprintName = "Chapter 5"
-            ReferencedContainer = "container:Chapter 5.xcodeproj">
+            BlueprintIdentifier = "63F5449A19D85FCC00B3C0CE"
+            BuildableName = "chapter 5.app"
+            BlueprintName = "chapter 5"
+            ReferencedContainer = "container:chapter 5.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

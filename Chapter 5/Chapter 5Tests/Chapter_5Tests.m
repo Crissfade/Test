@@ -1,6 +1,6 @@
 //
-//  Chapter_5Tests.m
-//  Chapter 5Tests
+//  chapter_5Tests.m
+//  chapter 5Tests
 //
 //  Created by jarvis on 9/28/14.
 //  Copyright (c) 2014 jarvis. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface Chapter_5Tests : XCTestCase
+@interface chapter_5Tests : XCTestCase
 
 @end
 
-@implementation Chapter_5Tests
+@implementation chapter_5Tests
 
 - (void)setUp {
     [super setUp];

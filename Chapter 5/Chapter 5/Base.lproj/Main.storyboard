@@ -1,25 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="14A361p" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Portrait-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Portrait" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYS-Ah-Diz">
+                                <rect key="frame" x="238" y="435" width="125" height="126"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="kGU-yx-1ug"/>
+                                    <constraint firstAttribute="width" constant="125" id="o93-9v-fdL"/>
+                                </constraints>
+                                <state key="normal" title="Bar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YKj-6H-Yc8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQH-7C-rPv">
+                                <rect key="frame" x="238" y="8" width="125" height="126"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="1Se-Ke-37T"/>
+                                    <constraint firstAttribute="width" constant="125" id="Vlm-2C-Lu6"/>
+                                </constraints>
+                                <state key="normal" title="Foo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bgl-bW-IAy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="mQH-7C-rPv" secondAttribute="centerX" constant="-0.5" id="6aO-mF-ubU"/>
+                            <constraint firstItem="mQH-7C-rPv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="7rF-z1-EnU"/>
+                            <constraint firstAttribute="centerX" secondItem="dYS-Ah-Diz" secondAttribute="centerX" constant="-0.5" id="EVy-Uj-Nau"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dYS-Ah-Diz" secondAttribute="bottom" constant="20" id="IE3-Do-EsF"/>
+                        </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="bars" destination="dYS-Ah-Diz" id="fDd-hT-vaE"/>
+                        <outlet property="foos" destination="mQH-7C-rPv" id="Lm7-eU-Bdq"/>
+                        <outlet property="portrait" destination="8bC-Xf-vdC" id="K2i-dz-hms"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="399" y="337"/>
+        </scene>
+        <!--Landscape-->
+        <scene sceneID="1ra-S1-7vj">
+            <objects>
+                <viewController id="vMY-Vx-gK4" userLabel="Landscape" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sg6-qY-CLJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="8xH-xj-FUK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UY3-bI-hRD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKy-lJ-qcq" userLabel="Foo">
+                                <rect key="frame" x="16" y="228" width="125" height="126"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="QlX-Fr-y1m"/>
+                                    <constraint firstAttribute="height" constant="125" id="z8p-Ta-PTg"/>
+                                </constraints>
+                                <state key="normal" title="Foo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="vMY-Vx-gK4" eventType="touchUpInside" id="Ire-C9-hlK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPQ-bh-Byw" userLabel="Bar">
+                                <rect key="frame" x="459" y="227" width="125" height="126"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="a6v-qS-sPu"/>
+                                    <constraint firstAttribute="width" constant="125" id="bZr-WY-FXc"/>
+                                </constraints>
+                                <state key="normal" title="Bar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="vMY-Vx-gK4" eventType="touchUpInside" id="qBm-O9-lV1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="KKy-lJ-qcq" secondAttribute="centerY" id="Pdv-Vx-lq3"/>
+                            <constraint firstItem="KKy-lJ-qcq" firstAttribute="leading" secondItem="UY3-bI-hRD" secondAttribute="leadingMargin" id="qUi-mJ-vWE"/>
+                            <constraint firstItem="aPQ-bh-Byw" firstAttribute="trailing" secondItem="UY3-bI-hRD" secondAttribute="trailingMargin" id="sDW-sI-pD1"/>
+                            <constraint firstAttribute="centerY" secondItem="aPQ-bh-Byw" secondAttribute="centerY" constant="0.5" id="xra-aR-2xF"/>
+                            <constraint firstAttribute="centerY" secondItem="aPQ-bh-Byw" secondAttribute="centerY" constant="0.5" id="yRJ-fS-zvF"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="bars" destination="aPQ-bh-Byw" id="eQ0-tv-5Ii"/>
+                        <outlet property="foos" destination="KKy-lJ-qcq" id="daU-uI-0AM"/>
+                        <outlet property="landscape" destination="UY3-bI-hRD" id="thY-9W-N8w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xsa-gC-VRl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="985"/>
         </scene>
     </scenes>
 </document>
