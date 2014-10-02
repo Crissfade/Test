@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  ViewSwitcher
+//  0
 //
 //  Created by jarvis on 10/2/14.
 //  Copyright (c) 2014 jarvis. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "SwitchViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,22 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
-    //
-    self.switchViewController = [[SwitchViewController alloc] initWithNibName:@"SwitchView" bundle:nil];
-    
-    UIView *switchView = self.switchViewController.view;
-    CGRect switchViewFrame = switchView.frame;
-    switchViewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
-    switchView.frame = switchViewFrame;
-    self.switchViewController.view = switchView;
-    
-    self.window.rootViewController = self.switchViewController;
-    
-    self.window.backgroundColor = [UIColor whiteColor];
-
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		63A4C91819DD709500E418F8 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A4C91719DD709500E418F8 /* YellowView.xib */; };
 		63A4C91A19DD70F300E418F8 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A4C91919DD70F300E418F8 /* BlueView.xib */; };
-		63A4C91F19DD71C100E418F8 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A4C91E19DD71C100E418F8 /* SwitchViewController.m */; };
 		63A4C92219DD725400E418F8 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A4C92119DD725400E418F8 /* BlueViewController.m */; };
 		63A4C92519DD725F00E418F8 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A4C92419DD725F00E418F8 /* YellowViewController.m */; };
-		63A4C92719DD782300E418F8 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A4C92619DD782300E418F8 /* SwitchView.xib */; };
+		63A4C92F19DD8EFF00E418F8 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A4C92E19DD8EFF00E418F8 /* SwitchViewController.m */; };
+		63A4C93119DD8F0C00E418F8 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A4C93019DD8F0C00E418F8 /* SwitchView.xib */; };
 		63E5470C19DD6D110085F693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5470B19DD6D110085F693 /* main.m */; };
 		63E5470F19DD6D110085F693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5470E19DD6D110085F693 /* AppDelegate.m */; };
 		63E5471719DD6D110085F693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E5471619DD6D110085F693 /* Images.xcassets */; };
@@ -33,13 +33,13 @@
 /* Begin PBXFileReference section */
 		63A4C91719DD709500E418F8 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 		63A4C91919DD70F300E418F8 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
-		63A4C91D19DD71C100E418F8 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
-		63A4C91E19DD71C100E418F8 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
 		63A4C92019DD725400E418F8 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueViewController.h; path = ../BlueViewController.h; sourceTree = "<group>"; };
 		63A4C92119DD725400E418F8 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlueViewController.m; path = ../BlueViewController.m; sourceTree = "<group>"; };
 		63A4C92319DD725F00E418F8 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
 		63A4C92419DD725F00E418F8 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
-		63A4C92619DD782300E418F8 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwitchView.xib; path = ../SwitchView.xib; sourceTree = "<group>"; };
+		63A4C92D19DD8EFF00E418F8 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchViewController.h; path = ../SwitchViewController.h; sourceTree = "<group>"; };
+		63A4C92E19DD8EFF00E418F8 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitchViewController.m; path = ../SwitchViewController.m; sourceTree = "<group>"; };
+		63A4C93019DD8F0C00E418F8 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwitchView.xib; path = ../SwitchView.xib; sourceTree = "<group>"; };
 		63E5470619DD6D110085F693 /* ViewSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E5470A19DD6D110085F693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E5470B19DD6D110085F693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 			children = (
 				63E5470D19DD6D110085F693 /* AppDelegate.h */,
 				63E5470E19DD6D110085F693 /* AppDelegate.m */,
-				63A4C92619DD782300E418F8 /* SwitchView.xib */,
-				63A4C91D19DD71C100E418F8 /* SwitchViewController.h */,
-				63A4C91E19DD71C100E418F8 /* SwitchViewController.m */,
+				63A4C93019DD8F0C00E418F8 /* SwitchView.xib */,
+				63A4C92D19DD8EFF00E418F8 /* SwitchViewController.h */,
+				63A4C92E19DD8EFF00E418F8 /* SwitchViewController.m */,
 				63A4C91719DD709500E418F8 /* YellowView.xib */,
 				63A4C92319DD725F00E418F8 /* YellowViewController.h */,
 				63A4C92419DD725F00E418F8 /* YellowViewController.m */,
@@ -215,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A4C92719DD782300E418F8 /* SwitchView.xib in Resources */,
+				63A4C93119DD8F0C00E418F8 /* SwitchView.xib in Resources */,
 				63E5471A19DD6D110085F693 /* LaunchScreen.xib in Resources */,
 				63A4C91A19DD70F300E418F8 /* BlueView.xib in Resources */,
 				63A4C91819DD709500E418F8 /* YellowView.xib in Resources */,
@@ -239,8 +239,8 @@
 			files = (
 				63E5470F19DD6D110085F693 /* AppDelegate.m in Sources */,
 				63A4C92519DD725F00E418F8 /* YellowViewController.m in Sources */,
-				63A4C91F19DD71C100E418F8 /* SwitchViewController.m in Sources */,
 				63A4C92219DD725400E418F8 /* BlueViewController.m in Sources */,
+				63A4C92F19DD8EFF00E418F8 /* SwitchViewController.m in Sources */,
 				63E5470C19DD6D110085F693 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
